@@ -1,0 +1,39 @@
+.metadata .hashtags {
+  display: flex;
+  font-size: var(--font-small);
+  color: var(--blue-color);
+}
+
+.metadata .hashtags li {
+  margin-right: var(--spacing);
+}
+
+.metadata .titleAndButton {
+  display: flex;
+}
+
+.metadata .titleAndButton .title {
+  font-size: var(--font-medium);
+  margin-right: var(--spacing);
+}
+
+.metadata .titleAndButton .title.clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.metadata .titleAndButton .moreBtn {
+  height: 100%;
+  transition: transform 300ms ease-in-out;
+}
+
+.metadata .titleAndButton .moreBtn.clicked {
+  transform: rotate(180deg);
+}
+
+.metadata .views {
+  font-size: var(--font-small);
+  color: var(--grey-dark-color);
+}

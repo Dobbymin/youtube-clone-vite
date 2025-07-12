@@ -1,0 +1,9 @@
+.upNext {
+  padding: 0 var(--spacing);
+}
+
+.title {
+  font-size: var(--font-medium);
+  color: var(--grey-dark-color);
+  margin-bottom: var(--spacing);
+}

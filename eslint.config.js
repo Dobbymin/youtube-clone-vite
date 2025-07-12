@@ -40,6 +40,12 @@ export default defineConfig([
       'prettier/prettier': ['warn', { usePrettierrc: false }],
       'react/react-in-jsx-scope': 'off',
       'react/jsx-uses-react': 'off',
+      'react/prop-types': 'off',
+      'import/no-unresolved': 'off',
+      'import/named': 'off',
+      'import/export': 'off',
+      'react/jsx-filename-extension': [1, { extensions: ['.jsx', '.tsx'] }],
+      'react/jsx-one-expression-per-line': [1, { allow: 'single-child' }],
       'import/order': [
         'off',
         {

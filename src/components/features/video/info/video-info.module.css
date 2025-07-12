@@ -1,0 +1,8 @@
+.infoAndUpNext {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  padding: var(--spacing);
+}

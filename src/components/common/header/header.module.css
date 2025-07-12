@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--spacing);
+  background-color: var(--black-color);
+  color: var(--white-color);
+}
+
+.logo {
+  font-size: var(--font-large);
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-small);
+}
+
+.logo :global(.fa-youtube) {
+  color: var(--red-color);
+}
+
+.icons :global(.fa-search) {
+  margin-right: var(--spacing);
+  cursor: pointer;
+}
+
+.icons :global(.fa-ellipsis-v) {
+  cursor: pointer;
+}

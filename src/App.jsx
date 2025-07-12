@@ -1,7 +1,14 @@
-import './App.css';
+import { Header, UpNext, VideoInfo, VideoPlayer } from './components';
 
 function App() {
-  return <>main</>;
+  return (
+    <>
+      <Header />
+      <VideoPlayer />
+      <VideoInfo />
+      <UpNext />
+    </>
+  );
 }
 
 export default App;

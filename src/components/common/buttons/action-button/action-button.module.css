@@ -1,0 +1,22 @@
+.actions {
+  display: flex;
+  justify-content: space-around;
+  margin: var(--spacing) 0;
+}
+
+.actionsButton {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--font-small);
+  color: var(--grey-dark-color);
+}
+
+.actions button i {
+  margin: 0 auto;
+  margin-bottom: var(--spacing-small);
+  font-size: var(--font-regular);
+}
+
+.actions button i.active {
+  color: var(--blue-color);
+}
