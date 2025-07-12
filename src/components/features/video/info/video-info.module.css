@@ -6,3 +6,7 @@
 .info {
   padding: var(--spacing);
 }
+
+.upNext {
+  padding: 0 var(--spacing);
+}

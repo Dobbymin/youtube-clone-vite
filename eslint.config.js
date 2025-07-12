@@ -12,7 +12,7 @@ export default defineConfig([
   globalIgnores(['dist']),
   {
     files: ['**/*.{js,jsx}'],
-    ignores: ['dist', '**/*.config.js', '**/*.config.mjs'],
+    ignores: ['dist', '**/*.config.js', '**/*.config.mjs', 'bun.lock'],
     extends: [
       js.configs.recommended,
       reactHooks.configs['recommended-latest'],

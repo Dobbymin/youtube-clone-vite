@@ -1,12 +1,16 @@
-.player {
-  position: sticky;
-  top: 0;
-  text-align: center;
+.container {
+  width: 100%;
   background-color: var(--black-color);
 }
 
-.video {
+.player {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  aspect-ratio: 16 / 9;
+}
+
+.youtubePlayer {
   width: 100%;
   height: 100%;
-  max-width: 800px;
 }
