@@ -1,12 +1,11 @@
-import { Header, UpNext, VideoInfo, VideoPlayer } from './components';
+import { ApplicationProvider } from './app/providers';
+import { Routes } from './app/routes';
 
 function App() {
   return (
-    <>
-      <Header />
-      <VideoPlayer />
-      <VideoInfo />
-    </>
+    <ApplicationProvider>
+      <Routes />
+    </ApplicationProvider>
   );
 }
 
