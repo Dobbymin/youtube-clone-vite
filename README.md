@@ -40,12 +40,25 @@ src/
 - **채널 정보**: 채널명, 구독자 수 등
 - **Up Next 섹션**: 추천 비디오 목록
 - **반응형 디자인**: 다양한 화면 크기 지원
+## ⚡️ Bun이란? 그리고 왜 Bun을 사용했나요?
+
+~~로고가 귀여워서..~~
+
+<img src="https://bun.sh/logo.svg" alt="Bun Logo" width="24" height="24" style="vertical-align:middle; margin-right:4px;" />[Bun](https://bun.sh/)은 빠른 속도와 효율성을 자랑하는 최신 자바스크립트 런타임, 번들러, 패키지 매니저입니다. Node.js와 호환되면서도, 더 빠른 의존성 설치와 실행 속도를 제공합니다.
+
+### 왜 Bun을 선택했나요?
+- **빠른 의존성 설치**: `bun install`은 npm, yarn보다 훨씬 빠르게 패키지를 설치할 수 있습니다.
+- **빠른 실행 속도**: 개발 서버 구동 및 빌드 속도가 매우 빠릅니다.
+- **올인원 도구**: 런타임, 번들러, 패키지 매니저가 통합되어 있어 개발 환경이 단순해집니다.
+- **미래지향적**: 최신 JS/TS 기능을 빠르게 지원하며, 커뮤니티와 생태계가 빠르게 성장하고 있습니다.
+
+이 프로젝트에서는 개발 효율성과 속도를 높이기 위해 Bun을 도입했습니다.
 
 ## 🛠️ 설치 및 실행
 
 ### Prerequisites
 
-> [Bun](https://bun.sh/) 설치 필요
+> <img src="https://bun.sh/logo.svg" alt="Bun Logo" width="24" height="24" style="vertical-align:middle; margin-right:4px;" /> [Bun](https://bun.sh/) 설치 필요
 ```bash
 # Bun 설치 (with npm)
 npm install -g bun
