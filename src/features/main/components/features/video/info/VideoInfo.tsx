@@ -1,4 +1,3 @@
-import { useGetVideoList } from '../../../../hooks';
 import {
   ActionButton,
   ChannelDescription,
@@ -9,8 +8,6 @@ import {
 import styles from './video-info.module.css';
 
 export const VideoInfo = () => {
-  const { data: playlist } = useGetVideoList();
-
   return (
     <div className={styles.infoAndUpNext}>
       <section className={styles.info}>
@@ -19,7 +16,7 @@ export const VideoInfo = () => {
         <ChannelDescription />
       </section>
       <section className={styles.upNext}>
-        <UpNext playlist={playlist} />
+        <UpNext />
       </section>
     </div>
   );

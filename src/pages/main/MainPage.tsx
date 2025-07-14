@@ -1,4 +1,4 @@
-import { Header, UpNext, VideoInfo, VideoPlayer } from '@/features';
+import { Header, VideoInfo, VideoPlayer } from '@/features';
 
 export default function MainPage() {
   return (
